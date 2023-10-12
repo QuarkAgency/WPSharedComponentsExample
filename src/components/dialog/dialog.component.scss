@@ -1,0 +1,10 @@
+dialog::backdrop {
+  @apply  bg-neutral-900/80 backdrop-blur-sm;
+}
+dialog {
+  padding: 0px;
+  @apply rounded-lg fixed inset-0 z-10 overflow-y-auto;
+}
+dialog:focus-visible {
+  outline: none !important;
+}
